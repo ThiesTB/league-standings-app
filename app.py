@@ -1,7 +1,7 @@
 import pandas as pd
 import streamlit as st
 import gspread
-from gspread_dataframe import get_as_dataframe, set_with_dataframe, append_row
+from gspread_dataframe import get_as_dataframe, set_with_dataframe
 from oauth2client.service_account import ServiceAccountCredentials
 from datetime import datetime
 
